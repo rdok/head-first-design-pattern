@@ -4,8 +4,8 @@ namespace src\Quack;
 
 class Squeak implements QuackBehavior
 {
-    public function quack(): void
+    public function quack(): string
     {
-        echo "Squeak";
+        return "Squeak";
     }
 }

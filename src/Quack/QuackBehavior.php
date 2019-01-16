@@ -4,5 +4,5 @@ namespace src\Quack;
 
 interface QuackBehavior
 {
-    public function quack(): void;
+    public function quack(): string;
 }

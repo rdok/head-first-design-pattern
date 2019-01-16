@@ -4,5 +4,5 @@ namespace src\Fly;
 
 interface FlyBehavior
 {
-    public function fly(): void;
+    public function fly(): string;
 }

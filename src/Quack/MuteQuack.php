@@ -4,8 +4,8 @@ namespace src\Quack;
 
 class MuteQuack implements QuackBehavior
 {
-    public function quack()
+    public function quack(): string
     {
-        echo "<< Silence >>";
+        return "<< Silence >>";
     }
 }

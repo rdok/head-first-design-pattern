@@ -2,6 +2,9 @@
 
 namespace src;
 
+use src\Fly\FlyBehavior;
+use src\Quack\QuackBehavior;
+
 abstract class Duck
 {
     /** @var QuackBehavior */
@@ -14,16 +17,30 @@ abstract class Duck
 
     public function performQuack()
     {
-        $this->quackBehavior->quack();
+        $message = sprintf("%s\n", $this->quackBehavior->quack());
+
+        echo $message;
     }
 
     public function performFly()
     {
-        $this->flyBehavior->fly();
+        $message = sprintf("%s\n", $this->flyBehavior->fly());
+
+        echo $message;
     }
 
     public function swim(): void
     {
         echo 'All ducks float, even decoyes!';
+    }
+
+    public function setQuackBehavior(QuackBehavior $quackBehavior): void
+    {
+        $this->quackBehavior = $quackBehavior;
+    }
+
+    public function setFlyBehavior(FlyBehavior $flyBehavior): void
+    {
+        $this->flyBehavior = $flyBehavior;
     }
 }

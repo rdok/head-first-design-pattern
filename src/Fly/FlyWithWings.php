@@ -4,8 +4,8 @@ namespace src\Fly;
 
 class FlyWithWings implements FlyBehavior
 {
-    public function fly(): void
+    public function fly(): string
     {
-        echo "I'm flying.";
+        return "I'm flying.";
     }
 }

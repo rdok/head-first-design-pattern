@@ -4,8 +4,8 @@ namespace src\Quack;
 
 class Quack implements QuackBehavior
 {
-    public function quack(): void
+    public function quack(): string
     {
-        echo "Quack";
+        return "Quack";
     }
 }

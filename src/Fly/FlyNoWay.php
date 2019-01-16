@@ -4,8 +4,8 @@ namespace src\Fly;
 
 class FlyNoWay implements FlyBehavior
 {
-    public function fly(): void
+    public function fly(): string
     {
-        echo "I can't fly";
+        return "I can't fly";
     }
 }
