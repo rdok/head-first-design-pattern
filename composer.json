@@ -1,0 +1,15 @@
+{
+  "name": "rdok/head-first-design-pattern",
+  "authors": [
+    {
+      "name": "Rizart Dokollari",
+      "email": "***REMOVED***"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "src\\": "src/"
+    }
+  }
+}
