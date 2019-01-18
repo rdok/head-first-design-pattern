@@ -1,9 +1,9 @@
 <?php
 
-namespace src;
+namespace src\_01_TheStrategyPattern\Theory;
 
-use src\Fly\FlyWithWings;
-use src\Quack\Quack;
+use src\_01_TheStrategyPattern\Theory\Fly\FlyWithWings;
+use src\_01_TheStrategyPattern\Theory\Quack\Quack;
 
 class MallardDuck extends Duck
 {

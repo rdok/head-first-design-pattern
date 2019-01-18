@@ -1,6 +1,6 @@
 <?php
 
-namespace src\Quack;
+namespace src\_01_TheStrategyPattern\Theory\Quack;
 
 class MuteQuack implements QuackBehavior
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace src;
+namespace src\_01_TheStrategyPattern\Theory;
 
-use src\Fly\FlyBehavior;
-use src\Quack\QuackBehavior;
+use src\_01_TheStrategyPattern\Theory\Fly\FlyBehavior;
+use src\_01_TheStrategyPattern\Theory\Quack\QuackBehavior;
 
 abstract class Duck
 {

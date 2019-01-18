@@ -1,6 +1,6 @@
 <?php
 
-namespace src\Fly;
+namespace src\_01_TheStrategyPattern\Theory\Fly;
 
 interface FlyBehavior
 {
